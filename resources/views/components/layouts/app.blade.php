@@ -10,8 +10,8 @@
     </head>
     <body>
         <div class="container">
-            <h3 class="mt-3">Laravel 10 Livewire CRUD Application Tutorial - <a href="https://www.allphptricks.com/">AllPHPTricks.com</a></h3>
-        
+            <h3 class="mt-3">Laravel 10 Livewire CRUD Application Tutorial - <a href="https://github.com/m-abuzour">M-Abuzour GitHub</a></h3>
+
             {{ $slot }}
 
         </div>

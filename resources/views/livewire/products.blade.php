@@ -9,18 +9,6 @@
 
         @include('livewire.updateOrCreate')
 
-
-        <div class="row justify-content-center text-center mt-3">
-            <div class="col-md-12">
-                <p>Back to Tutorial: 
-                    <a href="https://www.allphptricks.com/laravel-10-livewire-crud-application-tutorial/"><strong>Tutorial Link</strong></a>
-                </p>
-                <p>
-                    For More Web Development Tutorials Visit: <a href="https://www.allphptricks.com/"><strong>AllPHPTricks.com</strong></a>
-                </p>
-            </div>
-        </div>
-
         <div class="card">
             <div class="card-header">Product List</div>
             <div class="card-body">
@@ -40,12 +28,12 @@
                                 <td>{{ $product->name }}</td>
                                 <td>{{ $product->description }}</td>
                                 <td>
-                                    <button wire:click="edit({{ $product->id }})" 
+                                    <button wire:click="edit({{ $product->id }})"
                                         class="btn btn-primary btn-sm">
                                         <i class="bi bi-pencil-square"></i> Edit
-                                    </button>   
+                                    </button>
 
-                                    <button wire:click="delete({{ $product->id }})" 
+                                    <button wire:click="delete({{ $product->id }})"
                                         wire:confirm="Are you sure you want to delete this product?"
                                         class="btn btn-danger btn-sm">
                                         <i class="bi bi-trash"></i> Delete
@@ -65,5 +53,5 @@
                 </table>
             </div>
         </div>
-    </div>    
+    </div>
 </div>

@@ -3,8 +3,8 @@ Learn how to develop a Laravel 10 Livewire CRUD application
 
 > The complete tutorial step by step guide is available on my blog. [Laravel 10 Livewire CRUD Application](https://www.allphptricks.com/laravel-10-livewire-crud-application-tutorial/)
 
-## Blog
-https://www.allphptricks.com/
+## LinkedIn
+https://www.linkedin.com/in/mohammed-abuzour/
 
 
 ## Installation 
